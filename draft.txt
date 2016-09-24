@@ -1,0 +1,7 @@
+Don't forget the Acronyms; DSL
+DSL = Discriminating Similar Languages (DSL)
+----------------------------------------------------
+For the first time the DSL shared task included a sub-task on Arabic dialects. 
+They claim that .. As dialects are mostly used in conversational speech, in sub-task 2 we provided a dataset containing ASR transcripts.
+
+Mention how did you divide you data into 80 and 20 cross-validation data
