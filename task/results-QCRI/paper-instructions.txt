@@ -1,0 +1,21 @@
+Participants of the shared task are strongly encouraged to submit a system description paper outlining their approach.
+
+Submitted papers will be published in the workshop proceedings and indexed in the ACL Anthology.
+
+Your results package includes an automatically generated Latex paper template which includes your results. This can be a very good starting point to writing your paper. A bib file with relevant references is also included.
+
+You can submit your paper here:
+https://www.softconf.com/coling2016/VarDial3/
+
+Here are some additional tips to help you write your system description paper.
+
+- Please refer to the 2016 shared task report and the 2014 DSLCC dataset paper that describes the data used in the task. 
+
+- We will cite the system papers in the shared task report. Please avoid changing your paper title and author names/order after submission.
+
+- We strongly encourage you to submit a paper, even if your system did not perform very well. We can also learn from approaches that were not so successful.
+
+- Give your paper a descriptive title, possibly mentioning your methodology/approach. You don't need to include your team's name in the title.
+
+- We recommend that you check previous years' system papers and shared task reports. You might find useful information to write your paper. 
+

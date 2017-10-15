@@ -1,0 +1,178 @@
+%
+% File vardial2016.tex
+%
+% Contact: shervin.malmasi@mq.edu.au
+%%
+%% Based on the style files for COLING-2016, which were, in turn,
+%% Based on the style files for COLING-2014, which were, in turn,
+%% Based on the style files for ACL-2014, which were, in turn,
+%% Based on the style files for ACL-2013, which were, in turn,
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn, 
+%% based on the style files for ACL-2010, which were, in turn, 
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
+
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt]{article}
+\usepackage{coling2016}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+
+%\setlength\titlebox{5cm}
+
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+
+\title{VarDial 2016 paper template for QCRI}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  This document contains the instructions for preparing a camera-ready
+  manuscript for the proceedings of VarDial 2016. The document itself
+  conforms to its own specifications, and is therefore an example of
+  what your manuscript should look like. \bf Please write a brief abstract describing your system and the results you obtained. You can also briefly mention any insights or interesting highlights from your results.
+\end{abstract}
+
+
+
+\section{Introduction}
+\label{intro}
+
+This paper represents an example of how a system description paper may be structured. A bib file with relevant references is also included.
+\\
+
+We would like to ensure that future readers of your paper can find the relevant task description, data and results. So, we ask that you cite the shared task report paper \cite{dsl2016} in your introduction.
+\\
+
+You could begin with a brief description of the task and an overview of your approach. 
+
+
+\section{Related Work}
+
+In this section you can briefly describe other work in this area.
+\\
+
+For DSL, useful details can be found in the analysis by \newcite{dslrec:2016}.
+\\
+
+For Arabic Dialect Identification, details from \newcite{malmasi-et-al:2015:adi} can be helpful.
+\\
+
+You can also discuss how your system relates to other work in this area. For example, you can compare the approach to the winners of the previous task: \cite{malmasi-dras:2015:LT4VarDial} and \cite{goutte-leger:2015:LT4VarDial}.
+
+
+
+
+\section{Methodology and Data}
+
+The description of your system and your different runs can be included here.
+
+If you used any extra data or resources for the open track, you can describe them here.
+
+\section{Results}
+\label{sec:results}
+
+You can describe your results in this section.
+\\
+
+We have included some automatically generated tables with your results. You may wish to merge them into a single large table, or present your results in some other way.
+\\\\
+
+\begin{table}[h]
+\center
+\begin{tabular}{|lllll|}
+\hline
+\bf Run & \bf Accuracy & \bf F1 (micro) & \bf F1 (macro) & \bf F1 (weighted) \\
+\hline
+run1 & 0.5136 & 0.5136 & 0.5091 & 0.5112 \\
+run2 & 0.5117 & 0.5117 & 0.5023 & 0.5065 \\
+\hline
+\end{tabular}
+\caption{Results for test set C (closed training).}
+\label{tab:results-C-closed}
+\end{table}
+
+\begin{table}[h]
+\center
+\begin{tabular}{|lllll|}
+\hline
+\bf Run & \bf Accuracy & \bf F1 (micro) & \bf F1 (macro) & \bf F1 (weighted) \\
+\hline
+run1 & 0.3792 & 0.3792 & 0.3462 & 0.352 \\
+run2 & 0.3747 & 0.3747 & 0.3371 & 0.3413 \\
+\hline
+\end{tabular}
+\caption{Results for test set C (open training).}
+\label{tab:results-C-open}
+\end{table}
+
+\begin{table}[h]
+\center
+\begin{tabular}{|lllllll|}
+\hline
+\bf Test Set & \bf Track & \bf Run & \bf Accuracy & \bf F1 (micro) & \bf F1 (macro) & \bf F1 (weighted) \\ 
+\hline
+
+C & closed & run1 & 0.5136 & 0.5136 & 0.5091 & 0.5112 \\
+C & closed & run2 & 0.5117 & 0.5117 & 0.5023 & 0.5065 \\
+C & open & run1 & 0.3792 & 0.3792 & 0.3462 & 0.352 \\
+C & open & run2 & 0.3747 & 0.3747 & 0.3371 & 0.3413 \\
+\hline
+\end{tabular}
+\caption{Results for all runs. You may prefer to use this large table instead of individual tables for each category.}
+\label{tab:results-all}
+\end{table}
+
+You can compare your results against the baselines for each test set:
+
+\begin{itemize}
+\item A -- Random baseline: 0.083
+\item B1/B2 -- Random baseline: 0.20
+\item C -- Majority class baseline: 0.2279
+\end{itemize}
+
+You can insert these baselines as the first row in your result tables, for comparison purposes.
+\\
+
+Test set A had 12 classes while test sets B1 and B2 had 5 classes. The samples were evenly distributed across the classes and so a random baseline is used.
+The samples in test set C were slightly unbalanced, so a majority class baseline of 22.79\% is used.
+\\
+
+The confusion matrices you received can also be included here, either as an image (include the PDF using the  \verb|\includegraphics| command) or as a table.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% REMOVE THIS
+\clearpage % REMOVE THIS
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}
+
+You can interpret and discuss you results here. You can also include ideas for future work.
+
+
+\bibliographystyle{acl}
+\bibliography{DSL} % you bib file(s) go here 
+
+\end{document}

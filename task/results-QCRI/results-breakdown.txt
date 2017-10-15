@@ -1,0 +1,72 @@
+====
+
+C subtask, closed training, QCRI run1
+
+Overall accuracy: 0.513636363636
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        egy       0.51      0.57      0.54       315
+        glf       0.35      0.37      0.36       256
+        lav       0.52      0.43      0.47       344
+        msa       0.58      0.70      0.64       274
+        nor       0.59      0.50      0.54       351
+
+avg / total       0.52      0.51      0.51      1540
+
+
+====
+
+C subtask, closed training, QCRI run2
+
+Overall accuracy: 0.511688311688
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        egy       0.51      0.56      0.53       315
+        glf       0.36      0.31      0.33       256
+        lav       0.51      0.42      0.46       344
+        msa       0.57      0.66      0.61       274
+        nor       0.55      0.59      0.57       351
+
+avg / total       0.51      0.51      0.51      1540
+
+
+====
+
+C subtask, open training, QCRI run1
+
+Overall accuracy: 0.379220779221
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        egy       0.48      0.43      0.46       315
+        glf       0.27      0.09      0.14       256
+        lav       0.63      0.29      0.40       344
+        msa       0.28      0.93      0.43       274
+        nor       0.66      0.20      0.31       351
+
+avg / total       0.48      0.38      0.35      1540
+
+
+====
+
+C subtask, open training, QCRI run2
+
+Overall accuracy: 0.374675324675
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        egy       0.45      0.47      0.46       315
+        glf       0.26      0.09      0.14       256
+        lav       0.59      0.24      0.34       344
+        msa       0.29      0.92      0.44       274
+        nor       0.62      0.21      0.31       351
+
+avg / total       0.46      0.37      0.34      1540
+
+

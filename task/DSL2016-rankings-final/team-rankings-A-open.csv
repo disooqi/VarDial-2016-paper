@@ -1,0 +1,4 @@
+Rank,Team,Run,Accuracy,F1 (weighted)
+1,nrc,run1,0.890333333333,0.888927575179
+2,SUKI,run1,0.883666666667,0.883497780902
+3,Citius_Ixa_Imaxin,run2,0.871,0.869410675544
